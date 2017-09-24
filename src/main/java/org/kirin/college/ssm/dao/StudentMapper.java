@@ -1,7 +1,5 @@
 package org.kirin.college.ssm.dao;
 
-import org.kirin.college.ssm.dao.Student;
-
 public interface StudentMapper {
     int deleteByPrimaryKey(Integer id);
 

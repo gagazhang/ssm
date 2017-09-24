@@ -43,7 +43,7 @@
 		</property>
 		<!-- 数据库的密码 -->
 		<property name="password">
-			<value>root</value>
+			<value>${jdbc.password.ssm}</value>
 		</property>
 
 		<property name="maxActive">

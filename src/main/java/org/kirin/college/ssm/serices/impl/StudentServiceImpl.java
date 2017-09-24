@@ -14,11 +14,6 @@ public class StudentServiceImpl implements StudentService{
 
     public Student getStudentById(int id) {
         Student stu  = studentMapper.selectByPrimaryKey(id);
-//        stu = new Student();
-//        stu.setId(1);
-//        stu.setName("John");
-//        stu.setPassword("John");
-//        stu.setSex("M");
         return stu;
     }
 }

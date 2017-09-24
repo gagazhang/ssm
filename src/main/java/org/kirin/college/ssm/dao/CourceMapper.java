@@ -1,7 +1,5 @@
 package org.kirin.college.ssm.dao;
 
-import org.kirin.college.ssm.dao.Cource;
-
 public interface CourceMapper {
     int deleteByPrimaryKey(Integer id);
 
